@@ -59,6 +59,7 @@ ul {
 
 .home-navigation a:hover {
   color: #bd4932;
+  text-decoration: underline;
 }
 
 .subnavigation {
@@ -86,6 +87,17 @@ ul {
 }
 
 @media (min-width: 1024px) {
+  .home-navigation-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-image: url('../img/bg-main.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    align-items: flex-start;
+
+    position: relative;
+  }
   .title-brand {
     font-size: 3rem;
     margin-bottom: 0.3em;
@@ -95,6 +107,13 @@ ul {
   .links {
     max-width: 1024px;
     margin: 1em auto;
+  }
+
+  .home-navigation {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 1em;
+    left: 1em;
   }
 }
 
