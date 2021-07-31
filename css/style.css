@@ -3,6 +3,12 @@
 :root {
   box-sizing: border-box;
   font-size: calc(1vw + 0.8em);
+
+  --color-orange: #bf6225;
+  --color-yellow: #e0bd32;
+  --color-dark: #10171f;
+  --color-light: #ccd59f;
+  --color-green: #1d572d;
 }
 
 @media (min-width: 48em) {
@@ -21,8 +27,8 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 
-  background-color: #fffad5;
-  color: #105b63;
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 img {
@@ -58,7 +64,7 @@ ul {
 }
 
 .home-navigation a:hover {
-  color: #bd4932;
+  color: var(--color-orange);
   text-decoration: underline;
 }
 
@@ -116,12 +122,3 @@ ul {
     left: 1em;
   }
 }
-
-/* Color Theme Swatches in Hex
-.Honey-Pot-1-hex { color: #105B63; }
-.Honey-Pot-2-hex { color: #FFFAD5; }
-.Honey-Pot-3-hex { color: #FFD34E; }
-.Honey-Pot-4-hex { color: #DB9E36; }
-.Honey-Pot-5-hex { color: #BD4932; }
-
- */
